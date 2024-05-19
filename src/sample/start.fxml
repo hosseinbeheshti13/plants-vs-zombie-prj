@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="411.0" prefWidth="744.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Start">
+   <children>
+      <ImageView fitHeight="434.0" fitWidth="744.0" layoutY="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@plants-vs-zombies-garden-warfare-game-1080P-wallpaper-middle-size.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="playing" layoutX="488.0" layoutY="77.0" mnemonicParsing="false" onAction="#play" prefHeight="60.0" prefWidth="222.0" style="-fx-background-color: #000000;">
+         <graphic>
+            <ImageView fitHeight="52.0" fitWidth="203.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@play_button.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button fx:id="Quit" layoutX="488.0" layoutY="174.0" mnemonicParsing="false" onAction="#quit" prefHeight="60.0" prefWidth="221.0" style="-fx-background-color: #000000;">
+         <graphic>
+            <ImageView fitHeight="61.0" fitWidth="205.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@WhatsApp%20Image%202021-06-17%20at%2021.22.31.jpeg" />
+               </image>
+            </ImageView>
+         </graphic></Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="369.0" prefWidth="605.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Regist">
+   <children>
+      <ImageView fitHeight="386.0" fitWidth="614.0" layoutX="-2.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@e48f865ba758eac08746a46b751fc34c2e1987dd.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="110.0" layoutY="152.0" prefHeight="33.0" prefWidth="103.0" style="-fx-background-color: #000000;" text="username" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font></Label>
+      <TextField fx:id="ussername" layoutX="249.0" layoutY="152.0" prefHeight="33.0" prefWidth="201.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </TextField>
+      <Button fx:id="start" layoutX="241.0" layoutY="202.0" mnemonicParsing="false" onAction="#start" prefHeight="117.0" prefWidth="182.0" style="-fx-background-color: #000000;">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="124.0" fitWidth="150.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images.jpg" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <ImageView fitHeight="136.0" fitWidth="201.0" layoutX="228.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@wall.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

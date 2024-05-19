@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="548.0" prefWidth="863.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Losing">
+   <children>
+      <ImageView fitHeight="609.0" fitWidth="863.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@726197_6c12a.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="record" layoutX="496.0" layoutY="412.0" prefHeight="43.0" prefWidth="141.0" style="-fx-background-color: #ffffff;" textFill="#170000" />
+      <Label layoutX="387.0" layoutY="414.0" prefHeight="43.0" prefWidth="71.0" style="-fx-background-color: #c3bbbb;" text="your record">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
